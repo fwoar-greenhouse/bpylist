@@ -1,5 +1,5 @@
 #include <Python.h>
-#include <pytime.h>
+#include <cpython/pytime.h>
 #include <stdint.h>
 
 #define likely(x) __builtin_expect(!!(x), 1)
